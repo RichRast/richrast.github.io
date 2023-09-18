@@ -6,11 +6,11 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: richrastogi.github.io
+title: richrastogi.com
 email: rr568@cornell.edu
 description:  # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://richarastogi.github.io/" # the base hostname & protocol for your site
+url: "http://richarastogi.com/" # the base hostname & protocol for your site
 twitter_username: Rich_Rast
 github_username: RichRast
 
