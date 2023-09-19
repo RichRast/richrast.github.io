@@ -28,7 +28,7 @@ show: 1
 
 Hi! I'am a Computer Science PhD Student at <a href="https://www.cs.cornell.edu/">Cornell University </a> and I'am very fortunate to be advised by <a href="https://www.cs.cornell.edu/people/tj/">Professor Thorsten Joachims</a>. 
 <br>
-My research interests center on responsble machine learning in the context of rankings and selection processes. I am interested in developing methods that can improve our understanding of the induced bias and fairness issues and their long term dynamics. 
+My research interests center on responsble machine learning in the context of rankings and selection processes. I am interested in developing methods and theory that can improve our understanding of the induced bias and fairness issues and their long term dynamics. 
 <!-- . Currently, my research focus is fairness and bias issues that arise with the use of machine learning models
 as well as understanding their long term dynamics  and feedback loops.  -->
 </p>
@@ -85,7 +85,9 @@ where I developed models and code that were deployed in production systems.
     </a><br>
     {{paper.authors}}.<br>
     {{paper.conference}} <br>
-    
+    {% if paper.pdf %}<a class="icon pdf label label-info" href="{{paper.pdf}}">pdf</a> {% endif %}
+    {% if paper.models %}<a class="icon slides label label-warning" href="{{paper.models}}">models</a>{% endif %}
+    {% if paper.code %} <a class="icon slides label label-success label-warning" href="{{paper.code}}">code</a>{% endif %}
     <br>
     
     </td></tr>
@@ -93,36 +95,24 @@ where I developed models and code that were deployed in production systems.
     {% endfor %}
     </table>
 
-    <!-- <h5>Selected Projects</h5>
-
-
-    <p>
-    
-    </p>
+<br>    
+<h4>Working Papers</h4>
     
     <table>
-    {% for project in site.data.projects.projects %}
-      <tr><td style="padding:10px;width:200px;">
-    {% if project.image %}<a class="paper" href="{{project.link}}"><img width="200px" src="{{project.image}}"> </a>{% endif %}
-    </td><td style="padding:10px">
-    <a class="paper" href="{{project.link}}">
-    {{project.title}}
-    </a><br>
-    {{project.abstract}}<br>
-    {% if project.link %}<a class="icon pdf label label-info" href="{{project.link}}">github</a> {% endif %}
-    {% if project.data %}<a class="icon pdf label label-success" href="{{project.data}}">data</a> {% endif %}
-    {% if project.pdf %}<a class="icon pdf label label-info" href="{{project.pdf}}">pdf</a> {% endif %}
-    {% if project.models %}<a class="icon slides label label-warning" href="{{project.models}}">models</a>{% endif %}
-    {% if project.code %} <a class="icon slides label label-success label-warning" href="{{project.code}}">code</a>{% endif %}
-    
+    {% for paper in site.data.workingpapers.papers %}
+    <!-- <a class="paper" href="{{paper.pdf}}"> -->
+    {{paper.title}}
+    <!-- </a> -->
+    <br>
+    {{paper.authors}}.<br>
+    {{paper.conference}} <br>
     
     <br>
     
     </td></tr>
     
     {% endfor %}
-    </table> -->
-
+    </table>
 
 <!--h4>Contact</h4>
 
