@@ -3,7 +3,7 @@ projects:
       title: "Ge3Net: Inferring Continuous Population Structure Coordinates Along the Genome"
       authors: "Rastogi, Richa and Kumar, Arvind S. and Hilmarsson, Helgi and Bustamante, Carlos D. and Montserrat, Daniel Mas and Ioannidis, Alexander G."
       abstract: "This work targets the disparities in genomic medicine that are emerging between various worldwide populations.
-      By annotating ancestry along the genome accurately, and with simple to use coordinates, we hope to enable genetic researchers to incorporate ancestry-specific genetic effects into their future models with ease.
+      We propose a deep learning architecture to infer local ancestry along the genome with simple to use coordinates.
       This could extend the benefits of such research and models to more diverse cohorts." 
       image: /images/Ge3Net_simulated.jpg
       pdf: https://github.com/RichRast/Ge3Net/blob/main/Ge3Net.pdf
