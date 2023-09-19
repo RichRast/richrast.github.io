@@ -2,18 +2,18 @@
 layout: page
 title: Publications
 permalink: /papers/
-weight: 4
+weight: 2
 show: 1
 ---
 
-<h3>Papers</h3>
+<h3>Selected Papers</h3>
 
 
 
 <p>
   
   
-My full list of papers is <a href="https://scholar.google.com/citations?user=tk0e5lYAAAAJ&hl=en">here</a>.
+My full list of papers and patents are <a href="https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=hhy7tVIAAAAJ&sortby=pubdate">here</a>.
 </p>
 <table>
 {% for paper in site.data.papers.papers %}
@@ -21,9 +21,10 @@ My full list of papers is <a href="https://scholar.google.com/citations?user=tk0
 
   <tr><td style="padding:10px">
       {% if paper.image %}
-      <a href="{{paper.pdf}}"><img width="200px" style="min-width:150px" src="{{paper.image}}"></a>
+      <a href="{{paper.pdf}}"><img width="600px" style="min-width:150px" src="{{paper.image}}"></a>
       {% else %}
       <a href="{{paper.pdf}}"><img height="75px" style="min-width:150px" src="https://avatar.tobi.sh/{{paper.title}}"></a>
+      {% if project.code %} <a class="icon slides label label-success label-warning" href="{{project.code}}">code</a>{% endif %}
 
       {% endif %}
 </td><td style="padding:10px">
