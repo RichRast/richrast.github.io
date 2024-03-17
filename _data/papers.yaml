@@ -5,11 +5,12 @@ papers:
       code: https://github.com/RichRast/Fairness_in_Ranking_under_Disparate_Uncertainty
       image: /images/posterior.jpg
       conference: "<b> Spotlight (Oral) </b> at UAI Workshop on Epistemic AI, 2023"
+      bibtex: 
     - title: "Semi-Parametric Inducing Point Networks and Neural Processes"
       authors: Richa Rastogi, Yair Schiff, Alon Hacohen, Zhaozhi Li, Ian Lee, Yuntian Deng, Mert R Sabuncu, Volodymyr Kuleshov
       pdf: https://openreview.net/pdf?id=FE99-fDrWd5
       code: https://github.com/RichRast/SPIN
       image: /images/SPIN_arch.png
       conference: ICLR 2023
-      
+      bibtex: 
    
