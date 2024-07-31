@@ -3,7 +3,7 @@ papers:
       authors: Richa Rastogi, Thorsten Joachims
       pdf: https://arxiv.org/abs/2309.01610
       code: https://github.com/RichRast/Fairness_in_Ranking_under_Disparate_Uncertainty
-      image: /images/posterior.pdf
+      image: /images/posterior.jpg
       conference: "ACM Conference on on Equity and Access in Algorithms, Mechanisms, and Optimization (EAAMO'24), ICML Workshop on Humans, Algorithmic Decision-Making and Society, 2024, <b> Spotlight (Oral) </b> at UAI Workshop on Epistemic AI, 2023"
       bibtex: 
     - title: "Semi-Parametric Inducing Point Networks and Neural Processes"
