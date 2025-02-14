@@ -71,8 +71,9 @@ and a Bachelors of Engineering at <a href="http://nsut.ac.in/en/home">Delhi Univ
         {% if paper.slides and paper.bibtex != blank %} | {% endif %}
         {% if paper.bibtex != blank %}
             <a style="color: #0e56b5" 
-               href="data:text/plain;base64,{{paper.bibtex | strip | base64_encode}}" 
-               download="citation.bib">bibtex</a>
+               onclick="downloadBibtex(this)" 
+               data-bibtex="{{paper.bibtex | escape}}"
+               href="javascript:void(0)">bibtex</a>
         {% endif %}
         {% if paper.bibtex and paper.poster %} | {% endif %}
         {% if paper.poster %}<a style="color: #0e56b5" href="{{paper.poster}}">poster</a>{% endif %}
@@ -90,4 +91,19 @@ and a Bachelors of Engineering at <a href="http://nsut.ac.in/en/home">Delhi Univ
     </table>
 
 <br>    
+
+<script>
+function downloadBibtex(element) {
+    const bibtex = element.getAttribute('data-bibtex');
+    const blob = new Blob([bibtex], {type: 'text/plain'});
+    const url = window.URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'citation.bib';
+    document.body.appendChild(a);
+    a.click();
+    window.URL.revokeObjectURL(url);
+    document.body.removeChild(a);
+}
+</script>
 
