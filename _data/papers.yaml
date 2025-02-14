@@ -1,17 +1,64 @@
 papers: 
-    - title: "Fairness in Ranking under Disparate Uncertainty"
-      authors: <b> Richa Rastogi </b>, Thorsten Joachims
-      pdf: https://arxiv.org/abs/2309.01610
-      code: https://github.com/RichRast/Fairness_in_Ranking_under_Disparate_Uncertainty
-      image: /images/posterior.jpg
-      poster: /images/Poster_FRUDU.png
-      conference: "ACM Conference on on Equity and Access in Algorithms, Mechanisms, and Optimization (EAAMO'24), ICML Workshop on Humans, Algorithmic Decision-Making and Society, 2024, <b> Spotlight (Oral) </b> at UAI Workshop on Epistemic AI, 2023"
-      bibtex: 
-    - title: "Semi-Parametric Inducing Point Networks and Neural Processes"
-      authors: <b> Richa Rastogi </b>, Yair Schiff, Alon Hacohen, Zhaozhi Li, Ian Lee, Yuntian Deng, Mert R Sabuncu, Volodymyr Kuleshov
-      pdf: https://openreview.net/pdf?id=FE99-fDrWd5
-      code: https://github.com/RichRast/SPIN
-      image: /images/SPIN_arch.png
-      conference: International Conference on Learning Representations (ICLR'23)
-      bibtex: 
+  - title: "MultiScale Contextual Bandits for Long-term Objectives"
+    authors: <b> Richa Rastogi </b>, Yuta Saito, Thorsten Joachims
+    pdf: [coming soon on arxiv]
+    tldr: We introduce the framework of MultiScale Policy Learning to contextually reconcile the disconnect in the timescales of short-term interventions (e.g., rankings) and the long-term feedback (e.g., user retention). Our method learns interventions and policies at multiple interdependent timescales.
+    code: 
+    image: /images/MSBL.png
+    poster: 
+    conference: 
+    bibtex: 
+
+  - title: "Fairness in Ranking under Disparate Uncertainty"
+    authors: <b> Richa Rastogi </b>, Thorsten Joachims
+    pdf: https://arxiv.org/abs/2309.01610
+    tldr: We introduce Equal-Opportunity Ranking (EOR) as a new fairness criterion for ranking and a practical algorithm that provably reduces the group unfairness induced when the uncertainty of the underlying relevance model differs between groups of candidates.
+    code: https://github.com/RichRast/Fairness_in_Ranking_under_Disparate_Uncertainty
+    image: /images/posterior.jpg
+    poster: /images/Poster_FRUDU.png
+    conference: "ACM Conference on on Equity and Access in Algorithms, Mechanisms, and Optimization (EAAMO'24), <b> Spotlight (Oral) </b> at UAI Workshop on Epistemic AI, 2023"
+    bibtex: @inproceedings{10.1145/3689904.3694703,
+    author = {Rastogi, Richa and Joachims, Thorsten},
+    title = {Fairness in Ranking under Disparate Uncertainty},
+    year = {2024},
+    isbn = {9798400712227},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    url = {https://doi.org/10.1145/3689904.3694703},
+    doi = {10.1145/3689904.3694703},
+    abstract = {Ranking is a ubiquitous method for focusing the attention of human evaluators on a manageable subset of options. Its use as part of human decision-making processes ranges from surfacing potentially relevant products on an e-commerce site to prioritizing college applications for human review. While ranking can make human evaluation more effective by focusing attention on the most promising options, we argue that it can introduce unfairness if the uncertainty of the underlying relevance model differs between groups of options. Unfortunately, such disparity in uncertainty appears widespread, often to the detriment of minority groups for which relevance estimates can have higher uncertainty due to a lack of data or appropriate features. To address this fairness issue, we propose Equal-Opportunity Ranking (EOR) as a new fairness criterion for ranking and show that it corresponds to a group-wise fair lottery among the relevant options even in the presence of disparate uncertainty. EOR optimizes for an even cost burden on all groups, unlike the conventional Probability Ranking Principle, and is fundamentally different from existing notions of fairness in rankings, such as demographic parity and proportional Rooney rule constraints that are motivated by proportional representation relative to group size. To make EOR ranking practical, we present an efficient algorithm for computing it in time O(nlog (n)) and prove its close approximation guarantee to the globally optimal solution. In a comprehensive empirical evaluation on synthetic data, a US Census dataset, and a real-world audit of Amazon search queries, we find that the algorithm reliably guarantees EOR fairness while providing effective rankings.},
+    booktitle = {Proceedings of the 4th ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization},
+    articleno = {5},
+    numpages = {31},
+    keywords = {cost of opportunity, disparate uncertainty, fairness, ranking},
+    location = {San Luis Potosi, Mexico},
+    series = {EAAMO '24}
+    }
+    slides: https://speakerdeck.com/richrast/fairness-in-ranking-under-disparate-uncertainty
+
+  - title: "Semi-Parametric Inducing Point Networks and Neural Processes"
+    authors: <b> Richa Rastogi </b>, Yair Schiff, Alon Hacohen, Zhaozhi Li, Ian Lee, Yuntian Deng, Mert R Sabuncu, Volodymyr Kuleshov
+    pdf: https://openreview.net/pdf?id=FE99-fDrWd5
+    tldr: We introduce Semi-Parametric Inducing Point Networks (SPIN), a general-purpose architecture that can query the training set at inference time in a compute-efficient manner.
+    code: https://github.com/RichRast/SPIN
+    image: /images/SPIN_arch.png
+    conference: International Conference on Learning Representations (ICLR'23)
+    bibtex: @inproceedings{
+    rastogi2023semiparametric,
+    title={Semi-Parametric Inducing Point Networks and Neural Processes},
+    author={Richa Rastogi and Yair Schiff and Alon Hacohen and Zhaozhi Li and Ian Lee and Yuntian Deng and Mert R. Sabuncu and Volodymyr Kuleshov},
+    booktitle={The Eleventh International Conference on Learning Representations },
+    year={2023},
+    url={https://openreview.net/forum?id=FE99-fDrWd5}
+    }
+    slides: https://yair-schiff.github.io/assets/pub_content/SPIN_ICLR_2023_slides.pdf
+
+
+  - title: "System and Method for placing labels on moving objects"
+    authors: Daniel Muething, <b> Richa Rastogi </b>, Keith C Tate, Anand H Doshi, John K Robinson, Mahmoud Abugharbieh
+    pdf: https://patents.google.com/patent/US11104469B1/en?oq=US11104469B1
+    tldr: Learning closed loop dynamics for accurately positioning labels on moving packages. 
+    image: 
+    conference: USPTO Patent on behalf of Amazon
+    bibtex: 
    
