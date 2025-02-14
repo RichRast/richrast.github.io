@@ -68,8 +68,8 @@ and a Bachelors of Engineering at <a href="http://nsut.ac.in/en/home">Delhi Univ
         {% if paper.code %}<a style="color: #0e56b5" href="{{paper.code}}">code</a>{% endif %}
         {% if paper.code and paper.slides %} | {% endif %}
         {% if paper.slides %}<a style="color: #0e56b5" href="{{paper.slides}}">slides</a>{% endif %}
-        {% if paper.slides and paper.bibtex != blank %} | {% endif %}
-        {% if paper.bibtex != blank %}
+        {% if paper.slides and paper.bibtex %} | {% endif %}
+        {% if paper.bibtex %}
             <a style="color: #0e56b5" 
                onclick="downloadBibtex(this)" 
                data-bibtex="{{paper.bibtex | escape}}"
