@@ -2,7 +2,7 @@ papers:
   - title: "MultiScale Contextual Bandits for Long-term Objectives"
     authors: <b> Richa Rastogi </b>, Yuta Saito, Thorsten Joachims
     pdf: [coming soon on arxiv]
-    tldr: We introduce the framework of MultiScale Policy Learning to contextually reconcile the disconnect in the timescales of short-term interventions (e.g., rankings) and the long-term feedback (e.g., user retention). Our method learns interventions and policies at multiple interdependent timescales.
+    tldr: MultiScale Policy Learning to contextually reconcile the disconnect in the timescales of short-term interventions (e.g., rankings) and the long-term feedback (e.g., user retention). Our method learns interventions and policies at multiple interdependent timescales.
     code: 
     image: /images/MSBL.png
     poster: 
@@ -18,7 +18,7 @@ papers:
     poster: /images/Poster_FRUDU.png
     conference: "ACM Conference on on Equity and Access in Algorithms, Mechanisms, and Optimization (EAAMO'24), <b> Spotlight (Oral) </b> at UAI Workshop on Epistemic AI, 2023"
     bibtex: |
-    @inproceedings{ 10.1145/3689904.3694703,
+      @inproceedings{ 10.1145/3689904.3694703,
             author = {Rastogi, Richa and Joachims, Thorsten},
             title = {Fairness in Ranking under Disparate Uncertainty},
             year = {2024},
@@ -33,8 +33,7 @@ papers:
             numpages = {31},
             keywords = {cost of opportunity, disparate uncertainty, fairness, ranking},
             location = {San Luis Potosi, Mexico},
-            series = {EAAMO '24}
-            }
+            series = {EAAMO '24}}
     slides: https://speakerdeck.com/richrast/fairness-in-ranking-under-disparate-uncertainty
 
   - title: "Semi-Parametric Inducing Point Networks and Neural Processes"
@@ -44,15 +43,14 @@ papers:
     code: https://github.com/RichRast/SPIN
     image: /images/SPIN_arch.png
     conference: International Conference on Learning Representations (ICLR'23)
-    bibtex: |
+    bibtex: >
       @inproceedings{
       rastogi2023semiparametric,
       title={Semi-Parametric Inducing Point Networks and Neural Processes},
       author={Richa Rastogi and Yair Schiff and Alon Hacohen and Zhaozhi Li and Ian Lee and Yuntian Deng and Mert R. Sabuncu and Volodymyr Kuleshov},
       booktitle={The Eleventh International Conference on Learning Representations },
       year={2023},
-      url={https://openreview.net/forum?id=FE99-fDrWd5}
-      }
+      url={https://openreview.net/forum?id=FE99-fDrWd5}}
     slides: https://yair-schiff.github.io/assets/pub_content/SPIN_ICLR_2023_slides.pdf
 
   - title: "System and Method for placing labels on moving objects"
