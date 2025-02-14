@@ -17,7 +17,7 @@ papers:
     image: /images/posterior.jpg
     poster: /images/Poster_FRUDU.png
     conference: "ACM Conference on on Equity and Access in Algorithms, Mechanisms, and Optimization (EAAMO'24), <b> Spotlight (Oral) </b> at UAI Workshop on Epistemic AI, 2023"
-    bibtex: |
+    bibtex: >
       @inproceedings{ 10.1145/3689904.3694703,
             author = {Rastogi, Richa and Joachims, Thorsten},
             title = {Fairness in Ranking under Disparate Uncertainty},
@@ -35,6 +35,7 @@ papers:
             location = {San Luis Potosi, Mexico},
             series = {EAAMO '24}}
     slides: https://speakerdeck.com/richrast/fairness-in-ranking-under-disparate-uncertainty
+    news: https://news.cornell.edu/stories/2024/10/new-algorithm-picks-fairer-shortlist-when-applicants-abound
 
   - title: "Semi-Parametric Inducing Point Networks and Neural Processes"
     authors: <b> Richa Rastogi </b>, Yair Schiff, Alon Hacohen, Zhaozhi Li, Ian Lee, Yuntian Deng, Mert R Sabuncu, Volodymyr Kuleshov
