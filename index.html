@@ -51,8 +51,10 @@ and a Bachelors of Engineering at <a href="http://nsut.ac.in/en/home">Delhi Univ
           {% if paper.image %}
           {% if forloop.index == 1 %}
           <a href="{{paper.pdf}}"><img height="150px" style="min-width:150px" src="{{paper.image}}"></a>
+          <a href="{{paper.pdf}}"><img width="200px" style="min-width:150px" src="{{paper.image}}"></a>
           {% else %}
           <a href="{{paper.pdf}}"><img width="800px" style="min-width:150px" src="{{paper.image}}"></a>
+          <a href="{{paper.pdf}}"><img height="150px" style="min-width:150px" src="{{paper.image}}"></a>
           {% endif %}
           {% else %}
           <a href="{{paper.pdf}}"><img height="80px" style="min-width:150px" src="https://avatar.tobi.sh/{{paper.title}}"></a>
@@ -62,7 +64,7 @@ and a Bachelors of Engineering at <a href="http://nsut.ac.in/en/home">Delhi Univ
     {{paper.title}}
     </a><br>
     {{paper.authors}}.<br>
-    {{paper.conference}} <br>
+    <span style="color: #B25959;">{{paper.conference}}</span> <br>
     {{paper.tldr}} <br>
     {% if paper.code %} <a class="icon slides label label-success label-warning" href="{{paper.code}}">code</a>{% endif %} 
     {% if paper.poster %} <a class="icon slides label label-success label-warning" href="{{paper.poster}}">poster</a>{% endif %}
