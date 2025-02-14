@@ -38,31 +38,6 @@ and a Bachelors of Engineering at <a href="http://nsut.ac.in/en/home">Delhi Univ
 <br>
 
 </p>
-<!-- <h4> News </h4>
-<ul style="font-size: 16px">
-    <li>08/24: Our paper, <a href="https://arxiv.org/abs/2309.01610">Fairness in Ranking under Disparate Uncertainty</a> is accepted at ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization (EAAMO'24). See you in Mexico!
-    </li>
-    <!-- <br> -->
-    <li>07/24: I will be at the <a  href="https://ghc.anitab.org/">Grace Hopper Celebration of Women in Computing</a> in Philadelphia. Come stop by the Cornell booth to chat !
-    </li>
-    <!-- <br> -->
-    <li>06/24: Short version of our paper <a href="https://openreview.net/forum?id=QhXBXekwVm">MultiScale Policy Learning for Alignment with Long Term Objectives</a> is accepted at the ICML Models of Human Feedback for AI Alignment workshop. See you in Vienna!
-    </li>
-    <!-- <br> -->
-    <li>08/23: Presented our paper, <a href="https://arxiv.org/abs/2309.01610">Fairness in Ranking under Disparate Uncertainty</a>, as a <b> Spotlight (Oral) </b> at UAI workshop on <a href="https://sites.google.com/view/epi-workshop-uai-2023/schedule?authuser=0">Epistemic AI</a> at CMU, Pittsburgh! 
-        We introduce Equal-Opportunity Ranking (EOR) as a new fairness criterion for ranking that provably reduces the group unfairness induced when 
-        the uncertainty of the underlying relevance model differs between groups of candidates.
-    </li>
-    <!-- <br> -->
-    <li>01/23: Our paper, <a href="https://arxiv.org/abs/2205.11718">Semi-Parametric Inducing Point Networks and Neural Processes</a>, is accepted at International Conference on Learning Representations (ICLR '23)! We introduce 
-        semi-parametric inducing point networks (SPIN), a general-purpose architecture that can query the training set at inference time in a compute-efficient manner. 
-    </li>
-    <!-- <br> -->
-    <li>08/21: Our <a href="https://patents.google.com/patent/US11104469B1/en?oq=US11104469B1">Patent</a> filed on behalf of Amazon is granted by USPTO! It describes a closed loop feedback 
-        dynamical system with online updates for accurately positioning labels on moving packages. 
-    </li>
-    <!-- <br> -->
-</ul> -->
 
 
 
@@ -91,7 +66,8 @@ and a Bachelors of Engineering at <a href="http://nsut.ac.in/en/home">Delhi Univ
     {{paper.conference}} <br>
     {{paper.tldr}} <br>
     {% if paper.code %} <a class="icon slides label label-success label-warning" href="{{paper.code}}">code</a>{% endif %} 
-    {% if paper.poster %} <a class="icon slides label label-success label-warning" href="{{paper.poster}}">poster</a>{% endif %} <br>
+    {% if paper.poster %} <a class="icon slides label label-success label-warning" href="{{paper.poster}}">poster</a>{% endif %}
+    {% if paper.slides %} <a class="icon slides label label-success label-warning" href="{{paper.slides}}">slides</a>{% endif %}
     {% if paper.bibtex %} <a class="icon slides label label-success label-warning" href="{{paper.bibtex}}">bibtex</a>{% endif %} <br>
     <!-- {% if paper.pdf %}<a class="icon pdf label label-info" href="{{paper.pdf}}">pdf</a> {% endif %}
     {% if paper.models %}<a class="icon slides label label-warning" href="{{paper.models}}">models</a>{% endif %}

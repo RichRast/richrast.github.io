@@ -1,12 +1,12 @@
 papers: 
   - title: "MultiScale Contextual Bandits for Long-term Objectives"
     authors: <b> Richa Rastogi </b>, Yuta Saito, Thorsten Joachims
-    pdf: [coming soon on arxiv]
+    pdf: 
     tldr: MultiScale Policy Learning to contextually reconcile the disconnect in the timescales of short-term interventions (e.g., rankings) and the long-term feedback (e.g., user retention). Our method learns interventions and policies at multiple interdependent timescales.
     code: 
-    image: /images/MSBL.png
+    image: /images/MSBL_2.png
     poster: 
-    conference: 
+    conference: [coming soon on arxiv]
     bibtex: 
 
   - title: "Fairness in Ranking under Disparate Uncertainty"
