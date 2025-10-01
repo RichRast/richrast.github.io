@@ -6,7 +6,7 @@ papers:
     code: 
     image: /images/MSBL_2.png
     poster: 
-    conference: Neural Information Processing Systems <b> (NeurIPS), 2025 </b>
+    conference: Neural Information Processing Systems <b> (NeurIPS), 2025 </b>, ICML workshop on Models on Human Feedback for AI Alignment, 2024
     bibtex: 
 
   - title: "Fairness in Ranking under Disparate Uncertainty"
