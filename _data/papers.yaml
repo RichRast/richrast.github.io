@@ -16,7 +16,7 @@ papers:
     code: https://github.com/RichRast/Fairness_in_Ranking_under_Disparate_Uncertainty
     image: /images/posterior.jpg
     poster: /images/Poster_FRUDU.png
-    conference: "ACM Conference on on Equity and Access in Algorithms, Mechanisms, and Optimization <b> (EAAMO) 2024 </b>, UAI Workshop, 2023 <b> Spotlight (Oral) </b>"
+    conference: "ACM Conference on on Equity and Access in Algorithms, Mechanisms, and Optimization <b> (EAAMO) 2024 </b>, UAI workshop on Epistemic Uncertainty, 2023 <b> Spotlight (Oral) </b>"
     bibtex: >
       @inproceedings{ 10.1145/3689904.3694703,
             author = {Rastogi, Richa and Joachims, Thorsten},
