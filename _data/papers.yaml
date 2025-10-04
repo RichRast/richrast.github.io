@@ -53,12 +53,3 @@ papers:
       year={2023},
       url={https://openreview.net/forum?id=FE99-fDrWd5}}
     slides: https://yair-schiff.github.io/assets/pub_content/SPIN_ICLR_2023_slides.pdf
-
-  - title: "System and Method for placing labels on moving objects"
-    authors: Daniel Muething, <b> Richa Rastogi </b>, Keith C Tate, Anand H Doshi, John K Robinson, Mahmoud Abugharbieh
-    pdf: https://patents.google.com/patent/US11104469B1/en?oq=US11104469B1
-    tldr: Learning closed loop dynamics for accurately positioning labels on moving packages. 
-    image: 
-    conference: USPTO Patent on behalf of Amazon, 2021
-    bibtex: 
-   
