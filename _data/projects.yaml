@@ -2,9 +2,8 @@ projects:
     - code: "https://github.com/RichRast/Ge3Net" 
       title: "Ge3Net: Inferring Continuous Population Structure Coordinates Along the Genome"
       authors: <b> Richa Rastogi </b>, Arvind S. Kumar, Helgi Hilmarsson, Carlos D. Bustamante, Daniel Mas Montserrat, Alexander G. Ioannidis
-      abstract: "This work targets the disparities in genomic medicine that are emerging between various worldwide populations.
-      We propose a deep learning architecture to infer local ancestry along the genome with simple to use coordinates.
-      This could extend the benefits of such research and models to more diverse cohorts." 
+      tldr: "This work introduces a novel deep learning architecture to infer fine grain local ancestry along the genome with simple to use geographical coordinates.
+      Additionally, we identify detecting changepoints (when local ancestry changes along the genome) as a key technical problem. To this end, our method detects these changepoints when the prediction uncertainty is high and abstains from making erroneous predictions in the corresponding segments." 
       image: /images/Ge3Net_simulated.jpg
       conference: NeurIPS workshop on Learning Meaningful Representations of Life (LMRL), 2020
       pdf: https://github.com/RichRast/Ge3Net/blob/main/Ge3Net.pdf
