@@ -8,5 +8,12 @@ projects:
       conference: NeurIPS workshop on Learning Meaningful Representations of Life (LMRL), 2020
       pdf: https://github.com/RichRast/Ge3Net/blob/main/Ge3Net.pdf
       link: https://github.com/RichRast/Ge3Net
+      bibtex: >
+      @article{Rastogi_Ge3Net_Inferring_Continuous_2021,
+      author = {Rastogi, Richa and Kumar, Arvind S. and Hilmarsson, Helgi and Bustamante, Carlos D. and Montserrat, Daniel Mas and Ioannidis, Alexander G.},
+      doi = {10.5281/zenodo.7837947},
+      title = {{Ge3Net: Inferring Continuous Population Structure Coordinates Along the Genome }},
+      year = {2021}
+      }
     
        
