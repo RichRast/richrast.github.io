@@ -14,7 +14,7 @@ papers:
     pdf: 
     tldr: We propose a method that learns an interpretable contextual policy for assigning group membership to candidates by optimizing the disparity in the cost of opportunity of being selected. 
     code: 
-    image: /images/DCGR.jpeg
+    image: /images/DCGR.png
     poster: 
     conference: 
     bibtex: 
