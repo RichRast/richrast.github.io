@@ -9,6 +9,16 @@ papers:
     conference: Neural Information Processing Systems <b> (NeurIPS), 2025 </b>, ICML workshop on Models of Human Feedback for AI Alignment, 2024
     bibtex: 
 
+  - title: "Disparate Uncertainty Groups in Rankings"
+    authors: Richa Rastogi et al
+    pdf: 
+    tldr: We propose a method that learns an interpretable contextual policy for assigning group membership to candidates by optimizing the disparity in the cost of opportunity of being selected. 
+    code: 
+    image: /images/DCGR.jpeg
+    poster: 
+    conference: 
+    bibtex: 
+
   - title: "Fairness in Ranking under Disparate Uncertainty"
     authors: <b> Richa Rastogi </b>, Thorsten Joachims
     pdf: https://arxiv.org/abs/2309.01610
