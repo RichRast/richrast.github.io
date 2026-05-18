@@ -9,7 +9,15 @@ papers:
     poster: https://neurips.cc/media/PosterPDFs/NeurIPS%202025/117914.png?t=1763947645.9704845
     video: 
     conference: Neural Information Processing Systems <b> (NeurIPS), 2025 </b>, ICML workshop on Models of Human Feedback for AI Alignment, 2024
-    bibtex: 
+    bibtex: > 
+      @inproceedings{
+      rastogi2026multiscale,
+      title={MultiScale Contextual Bandits for Long Term Objectives},
+      author={Richa Rastogi and Yuta Saito and Thorsten Joachims},
+      booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+      year={2026},
+      url={https://openreview.net/forum?id=SfuH4dShOA}
+      }
 
   - title: "Disparate Uncertainty Groups in Rankings"
     authors: Richa Rastogi et al
