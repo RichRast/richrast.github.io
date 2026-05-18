@@ -1,11 +1,13 @@
 papers: 
   - title: "MultiScale Contextual Bandits for Long-term Objectives"
     authors: <b> Richa Rastogi </b>, Yuta Saito, Thorsten Joachims
-    pdf: https://arxiv.org/abs/2503.17674
+    pdf: https://proceedings.neurips.cc/paper_files/paper/2025/file/0cece806cd3d1dfad4a893f016ad3d7d-Paper-Conference.pdf
     tldr: MultiScale Policy Learning to contextually reconcile the disconnect in the timescales of short-term interventions (e.g., rankings, token feedback) and the long-term feedback (e.g., user retention, sentence feedback). Our method learns interventions and policies at multiple interdependent timescales in various settings ranging from recommender systems to LLMs.
     code: 
     image: /images/MSBL_2.png
-    poster: 
+    slides: https://neurips.cc/media/neurips-2025/Slides/117914_fCYFnpT.pdf
+    poster: https://neurips.cc/media/PosterPDFs/NeurIPS%202025/117914.png?t=1763947645.9704845
+    video: 
     conference: Neural Information Processing Systems <b> (NeurIPS), 2025 </b>, ICML workshop on Models of Human Feedback for AI Alignment, 2024
     bibtex: 
 
